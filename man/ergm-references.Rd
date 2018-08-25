@@ -5,7 +5,7 @@
 %  open source, and has the attribution requirements (GPL Section 7) at
 %  http://statnet.org/attribution
 %
-%  Copyright 2008-2016 Statnet Commons
+%  Copyright 2008-2018 Statnet Commons
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \name{ergm-references}
 \alias{ergm-references}
@@ -13,8 +13,8 @@
 \alias{ergm.references}
 \alias{references.ergm}
 \alias{CompleterOrder}
-\alias{InitReference.CompleteOrder}
-\alias{InitWtMHP.AlterSwap}
+\alias{InitErgmReference.CompleteOrder}
+\alias{InitWtErgmProposal.AlterSwap}
 \docType{methods}
 
 \title{Reference Measures for Exponential-Family Random Graph Models for

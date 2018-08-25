@@ -5,7 +5,7 @@
 #  open source, and has the attribution requirements (GPL Section 7) at
 #  http://statnet.org/attribution
 #
-#  Copyright 2008-2016 Statnet Commons
+#  Copyright 2008-2018 Statnet Commons
 #######################################################################
 .onAttach <- function(lib, pkg){
   sm <- statnetStartupMessage("ergm.rank",c("statnet"),FALSE)
@@ -13,18 +13,9 @@
 }
 
 .onLoad <- function(lib, pkg){
-  .RegisterMHPs()
-  .RegisterConstraintImplications()
-  .RegisterInitMethods()
+  .RegisterProposals()
 }
 
-.RegisterMHPs <- function(){
-  ergm.MHP.table("c", "CompleteOrder", "",  0, "random", "AlterSwap")
-}
-
-.RegisterConstraintImplications <- function(){
-}
-
-.RegisterInitMethods <- function(){
-  ergm.init.methods("CompleteOrder", c("CD","zeros"))
+.RegisterProposals <- function(){
+  ergm_proposal_table("c", "CompleteOrder", "",  0, "random", "AlterSwap")
 }

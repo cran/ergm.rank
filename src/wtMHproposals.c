@@ -5,7 +5,7 @@
  *  open source, and has the attribution requirements (GPL Section 7) at
  *  http://statnet.org/attribution
  *
- *  Copyright 2008-2016 Statnet Commons
+ *  Copyright 2008-2018 Statnet Commons
  */
 #include "wtMHproposals.h"
 
@@ -59,4 +59,3 @@ void MH_AlterSwap(WtMHproposal *MHp, WtNetwork *nwp)  {
     MHp->togglehead[0]=MH_UNSUCCESSFUL;	
   }
 }
-

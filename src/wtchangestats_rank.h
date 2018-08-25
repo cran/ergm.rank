@@ -5,7 +5,7 @@
  *  open source, and has the attribution requirements (GPL Section 7) at
  *  http://statnet.org/attribution
  *
- *  Copyright 2008-2016 Statnet Commons
+ *  Copyright 2008-2018 Statnet Commons
  */
 #ifndef WTCHANGESTATS_RANK_H
 #define WTCHANGESTATS_RANK_H
@@ -24,10 +24,10 @@ WtD_CHANGESTAT_FN(d_nodeicov_rank); WtS_CHANGESTAT_FN(s_nodeicov_rank);
 
 WtD_CHANGESTAT_FN(d_nonconformity); WtS_CHANGESTAT_FN(s_nonconformity);
 
-WtD_CHANGESTAT_FN(d_local1_nonconformity); WtS_CHANGESTAT_FN(s_local1_nonconformity);
+WtD_CHANGESTAT_FN(d_local_nonconformity); WtS_CHANGESTAT_FN(s_local_nonconformity);
 
-WtD_CHANGESTAT_FN(d_local2_nonconformity); WtS_CHANGESTAT_FN(s_local2_nonconformity);
+WtD_CHANGESTAT_FN(d_nonconformity_decay); WtS_CHANGESTAT_FN(s_nonconformity_thresholds);
 
-WtD_CHANGESTAT_FN(d_localAND_nonconformity); WtS_CHANGESTAT_FN(s_localAND_nonconformity);
+WtD_CHANGESTAT_FN(d_nonconformity_thresholds); WtS_CHANGESTAT_FN(s_nonconformity_thresholds);
 
 #endif
