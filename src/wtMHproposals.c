@@ -1,25 +1,20 @@
 /*  File src/wtMHproposals.c in package ergm.rank, part of the Statnet suite
- *  of packages for network analysis, http://statnet.org .
+ *  of packages for network analysis, https://statnet.org .
  *
  *  This software is distributed under the GPL-3 license.  It is free,
  *  open source, and has the attribution requirements (GPL Section 7) at
- *  http://statnet.org/attribution
+ *  https://statnet.org/attribution
  *
- *  Copyright 2008-2018 Statnet Commons
+ *  Copyright 2008-2019 Statnet Commons
  */
 #include "wtMHproposals.h"
-
-/* Shorthand. */
-#define Mtail (MHp->toggletail)
-#define Mhead (MHp->togglehead)
-#define Mweight (MHp->toggleweight)
 
 /*********************
  void MH_AlterSwap
 
  Default MH algorithm for ERGM over complete orderings
 *********************/
-void MH_AlterSwap(WtMHproposal *MHp, WtNetwork *nwp)  {  
+WtMH_P_FN(MH_AlterSwap){  
   Vertex tail, head1, head2;
   
   if(MHp->ntoggles == 0) { // Initialize AlterSwap 
