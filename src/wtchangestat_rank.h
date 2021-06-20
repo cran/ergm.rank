@@ -1,18 +1,18 @@
-/*  File src/wtchangestat_rank.h in package ergm.rank, part of the Statnet suite
- *  of packages for network analysis, https://statnet.org .
+/*  File src/wtchangestat_rank.h in package ergm.rank, part of the
+ *  Statnet suite of packages for network analysis, https://statnet.org .
  *
  *  This software is distributed under the GPL-3 license.  It is free,
  *  open source, and has the attribution requirements (GPL Section 7) at
- *  https://statnet.org/attribution
+ *  https://statnet.org/attribution .
  *
- *  Copyright 2008-2019 Statnet Commons
+ *  Copyright 2008-2021 Statnet Commons
  */
 #ifndef WTCHANGESTAT_RANK_H
 #define WTCHANGESTAT_RANK_H
 
-#include "wtedgetree.h"
-#include "wtchangestat.h"
-
+#include "ergm_wtedgetree.h"
+#include "ergm_wtchangestat.h"
+#include "ergm_storage.h"
 
 // Case 1: One ego swaps the values of two alters.
 // Case 2: The alters are adjacent?
@@ -21,6 +21,8 @@
 #define GETOLDWT2(a,b) (SAMEDYAD(TAIL,HEAD1,a,b) ? OLDWT1 : (SAMEDYAD(TAIL,HEAD2,a,b) ? OLDWT2 : GETWT(a,b)))
 #define GETNEWWT2(a,b) (SAMEDYAD(TAIL,HEAD1,a,b) ? NEWWT1 : (SAMEDYAD(TAIL,HEAD2,a,b) ? NEWWT2 : GETWT(a,b)))
 #define GETNEWWT2OLD(a,b,old) (SAMEDYAD(TAIL,HEAD1,a,b) ? NEWWT1 : (SAMEDYAD(TAIL,HEAD2,a,b) ? NEWWT2 : (old)))
+
+#define GETNEWWTOLD_M(a,b,old) (SAMEDYAD(tail,head,a,b)?weight:old)
 
 #define EXEC_THROUGH_FOUTDYADS(a,e,v,w,subroutine){		\
   Vertex v = BIPARTITE?BIPARTITE:1;				\

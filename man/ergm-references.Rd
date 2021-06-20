@@ -1,12 +1,12 @@
-%  File man/ergm-references.Rd in package ergm.rank, part of the Statnet suite
-%  of packages for network analysis, https://statnet.org .
+%  File man/ergm-references.Rd in package ergm.rank, part of the
+%  Statnet suite of packages for network analysis, https://statnet.org .
 %
 %  This software is distributed under the GPL-3 license.  It is free,
 %  open source, and has the attribution requirements (GPL Section 7) at
-%  https://statnet.org/attribution
+%  https://statnet.org/attribution .
 %
-%  Copyright 2008-2019 Statnet Commons
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Copyright 2008-2021 Statnet Commons
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \name{ergm-references}
 \alias{ergm-references}
 \alias{references-ergm}
@@ -80,9 +80,9 @@
 \references{
 Krivitsky PN (2012). Exponential-Family Random Graph Models for Valued
 Networks. \emph{Electronic Journal of Statistics}, 2012, 6,
-1100-1128. \doi{doi:10.1214/12-EJS696}
+1100-1128. \doi{10.1214/12-EJS696}
 
-Krivitsky, PN and Butts, CT (2012). Exponential-Family Random Graph Models for Rank-Order Relational Data. \url{http://arxiv.org/abs/1210.0493}
+Krivitsky PN and Butts CT (2017). Exponential-Family Random Graph Models for Rank-Order Relational Data. \emph{Sociological Methodology}, 2017, 47, 68-112. \doi{10.1177/0081175017692623}
 }
 
 \seealso{ergm, network, \%v\%, \%n\%, sna,

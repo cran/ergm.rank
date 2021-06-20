@@ -1,12 +1,12 @@
-%  File inst/NEWS.Rd in package ergm.rank, part of the Statnet suite
-%  of packages for network analysis, https://statnet.org .
+%  File inst/NEWS.Rd in package ergm.rank, part of the
+%  Statnet suite of packages for network analysis, https://statnet.org .
 %
 %  This software is distributed under the GPL-3 license.  It is free,
 %  open source, and has the attribution requirements (GPL Section 7) at
-%  https://statnet.org/attribution
+%  https://statnet.org/attribution .
 %
-%  Copyright 2008-2019 Statnet Commons
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Copyright 2008-2021 Statnet Commons
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \name{NEWS}
 \title{NEWS file for the \code{\link[=ergm.rank-package]{ergm.rank}} package}
 \encoding{UTF-8}
@@ -60,6 +60,20 @@
   % }
 %% }
 
+\section{Changes in version 4.0.0}{
+
+  \subsection{NEW FEATURES}{
+    \itemize{
+      \item A vignette demonstrating the package's functionality has been added.
+    }
+  }
+
+  \subsection{BUG FIXES}{
+    \itemize{
+      \item Updated for \code{\link[ergm:ergm-package]{ergm}} 4.0 API changes.
+    }
+  }
+}
 
 \section{Changes in version 1.2.0}{
 

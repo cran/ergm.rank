@@ -1,12 +1,12 @@
-%  File man/ergm-terms.Rd in package ergm.rank, part of the Statnet suite
-%  of packages for network analysis, https://statnet.org .
+%  File man/ergm-terms.Rd in package ergm.rank, part of the
+%  Statnet suite of packages for network analysis, https://statnet.org .
 %
 %  This software is distributed under the GPL-3 license.  It is free,
 %  open source, and has the attribution requirements (GPL Section 7) at
-%  https://statnet.org/attribution
+%  https://statnet.org/attribution .
 %
-%  Copyright 2008-2019 Statnet Commons
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Copyright 2008-2021 Statnet Commons
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \name{ergm-terms}
 \alias{ergm-terms}
 \alias{ergm.terms}
@@ -79,8 +79,8 @@
       mean. \code{wtname} can be used to label this term.
     }
 
-    \item{\code{rank.nodeicov(attrname, transform, transformname)}}{\emph{Attractiveness/Popularity covariates:}
-      Models the effect of a nodal covariate on the propensity of an
+    \item{\code{rank.nodeicov(attr)}}{\emph{Attractiveness/Popularity covariates:}
+      Models the effect of one or more nodal covariates on the propensity of an
       actor to be ranked highly by the others. See the
       \code{\link[ergm]{nodeicov}} ERGM term documentation for arguments.
     }
@@ -120,18 +120,12 @@
 }
 \references{
   \itemize{
-    \item Handcock M. S., Hunter D. R., Butts C. T., Goodreau S. G.,
-      Krivitsky P. N. and Morris M.
-(2012). _Fit, Simulate and Diagnose Exponential-Family Models for
-Networks_. Version 3.1.  Project home
-page at <URL: http://www.statnet.org>, <URL:
-CRAN.R-project.org/package=ergm>.
   
 \item Krivitsky P. N. (2012). Exponential-Family Random Graph Models for
-Valued Networks. \emph{Electronic Journal of Statistics}, 2012, 6,
-1100-1128. \doi{doi:10.1214/12-EJS696}
+Valued Networks. \emph{Electronic Journal of Statistics}, 6,
+1100-1128. \doi{10.1214/12-EJS696}
 
-\item Krivitsky PN and Butts CT (2012). Exponential-Family Random Graph Models for Rank-Order Relational Data. \url{http://arxiv.org/abs/1210.0493}
+\item Krivitsky PN and Butts CT (2017). Exponential-Family Random Graph Models for Rank-Order Relational Data. \emph{Sociological Methodology}, 2017, 47, 68-112. \doi{10.1177/0081175017692623}
 
 
 }
