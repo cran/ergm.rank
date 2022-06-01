@@ -5,7 +5,7 @@
 #  open source, and has the attribution requirements (GPL Section 7) at
 #  https://statnet.org/attribution .
 #
-#  Copyright 2008-2021 Statnet Commons
+#  Copyright 2008-2022 Statnet Commons
 ################################################################################
 #' Fit, Simulate and Diagnose Exponential-Family Models for Rank-Order
 #' Relational Data
@@ -31,7 +31,10 @@
 #' This package contains functions specific to using \code{\link{ergm}} to
 #' model networks whose dyad values are ranks. Examples include preferences,
 #' valued ties reduced to ranks, etc..
-#' 
+#'
+#' These terms have a specialized interpretation, and are therefore generally
+#' prefixed by "`rank.`", though they should take any valued data.
+#'
 #' For detailed information on how to download and install the software, go to
 #' the Statnet project website: \url{https://statnet.org}. A tutorial, support
 #' newsgroup, references and links to further resources are provided there.

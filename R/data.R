@@ -5,7 +5,7 @@
 #  open source, and has the attribution requirements (GPL Section 7) at
 #  https://statnet.org/attribution .
 #
-#  Copyright 2008-2021 Statnet Commons
+#  Copyright 2008-2022 Statnet Commons
 ################################################################################
 #' Newcomb's Fraternity Networks
 #' 
@@ -66,8 +66,7 @@
 #'                         rank.deference+rank.nonconformity("all")+
 #'                         rank.nonconformity("localAND"),
 #'                         response="descrank", reference=~CompleteOrder,
-#'                         control=control.ergm(MCMLE.trustregion=10000,
-#'                                              MCMC.interval=10))
+#'                         control=control.ergm(MCMC.interval=10))
 #' # Check MCMC diagnostics (barely adequate).
 #' mcmc.diagnostics(newcomb.1.2.fit)
 #' summary(newcomb.1.2.fit)
